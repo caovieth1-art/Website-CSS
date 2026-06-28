@@ -1,54 +1,188 @@
+/* =========================
+   STYLE CHUNG CHO WEBSITE
+   ========================= */
+
+
+/* Thẻ nội dung */
 body {
-    font-family: Arial, sans-serif;
+
+    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 16px;
+
+    margin: 0;
+
+    padding: 0;
+
 }
 
+
+
+/* =========================
+   HEADER
+   ========================= */
 
 header {
+
     background-color: lightblue;
+
+    padding: 20px;
+
 }
 
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+
+/* nav dùng inline-block + rộng 80% */
 
 nav {
+
+    display: inline-block;
+
+    width: 80%;
+
     background-color: gray;
+
 }
 
+
+
+/* Chỉ tạo kiểu ảnh nằm trong nav */
+
+nav img {
+
+    width: 10%;
+
+}
+
+
+
+/* =========================
+   MENU LI
+   ========================= */
+
+
+/*
+li {
+
+    display: inline-block;
+
+    width: 120px;
+
+}
+*/
+
+
+
+/* =========================
+   MAIN CONTENT
+   ========================= */
 
 main {
+
     background-color: #eeeeee;
+
     font-size: 18px;
+
     padding: 20px;
+
 }
-    
+
+
+
+/* =========================
+   TIÊU ĐỀ
+   ========================= */
+
+h1 {
+
+    text-align: center;
+
+    font-family: Georgia, serif;
+
+    color: darkblue;
+
+}
+
+
+
+/* =========================
+   ĐOẠN VĂN
+   ========================= */
+
+p {
+
+    line-height: 1.6;
+
+}
+
+
+
+/* =========================
+   GRID
+   ========================= */
+
+
+/* Tạo grid 2 cột khoảng 40% */
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns: 40% 40%;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    row-gap: 20px;
+
+}
+
+
+
+/* Chỉ ảnh bên trong grid */
+
+.grid img {
+
+    width: 100%;
+
+}
+
+
+
+/* =========================
+   FLEX
+   ========================= */
+
+
+.flex {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+}
+
+
+
+/* =========================
+   FOOTER
+   ========================= */
 
 
 footer {
+
     background-color: lightblue;
+
     padding: 15px;
-}
 
-
-
-li {
-    display: inline-block;
-    width: 120px;
-}
-
-
-
-nav ul {
     text-align: center;
-}
 
-
-
-h1 {
-    text-align: center;
-    font-family: Georgia;
-    color: blue;
-}
-
-
-p {
-    line-height: 1.6;
 }
